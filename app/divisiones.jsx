@@ -15,27 +15,27 @@ export default function Divisiones() {
     const [selected, setSelected] = useState("herreria")
 
     const [image, setImage] = useState("/herreria.png")
-    const [description, setDescription] = useState("Descripción del área de herreria.")
+    const [description, setDescription] = useState("Descripción del área de herreria. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nemo debitis ut veritatis repellendus minus libero doloribus architecto pariatur")
     const [imagesArray, setImagesArray] = useState(["/herreria_1.png"])
 
     const category = (item) => {
         if (item == "herreria") {
             setImage("/herreria.png")
-            setDescription("Descripción del área de herreria.")
+            setDescription("Descripción del área de herreria. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nemo debitis ut veritatis repellendus minus libero doloribus architecto pariatur")
             setImagesArray(["/herreria_1.png"])
             setSelected("herreria")
         }
 
         if (item == "carpinteria") {
             setImage("/carpinteria.png")
-            setDescription("Descripción del área de carpinteria.")
+            setDescription("Descripción del área de carpinteria. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nemo debitis ut veritatis repellendus minus libero doloribus architecto pariatur")
             setImagesArray(["/carpinteria_1.png"])
             setSelected("carpinteria")
         }
 
         if (item == "construccion") {
             setImage("/constructora.png")
-            setDescription("Descripción del área de construcción. ")
+            setDescription("Descripción del área de construcción. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nemo debitis ut veritatis repellendus minus libero doloribus architecto pariatur")
             setImagesArray(["/construccion_1.png"])
             setSelected("construccion")
         }
@@ -45,9 +45,9 @@ export default function Divisiones() {
         <div className={styles.Divisiones}>
 
             <div className={styles.DivisionesDivUno}>
-                <button className={styles.Button} onClick={() => category("herreria")}><h4 className={selected=="herreria" && styles.ButtonSelected}>Herrería</h4></button>
-                <button className={styles.Button} onClick={() => category("carpinteria")}><h4 className={selected=="carpinteria" && styles.ButtonSelected}>Carpinteria</h4></button>
-                <button className={styles.Button} onClick={() => category("construccion")}><h4 className={selected=="construccion" && styles.ButtonSelected}>Construcción</h4></button>
+                <button className={styles.Button} onClick={() => category("herreria")}><h4 className={selected == "herreria" && styles.ButtonSelected}>Herrería</h4></button>
+                <button className={styles.Button} onClick={() => category("carpinteria")}><h4 className={selected == "carpinteria" && styles.ButtonSelected}>Carpinteria</h4></button>
+                <button className={styles.Button} onClick={() => category("construccion")}><h4 className={selected == "construccion" && styles.ButtonSelected}>Construcción</h4></button>
             </div>
 
             <div className={styles.DivisionesDivDos}>
@@ -65,6 +65,7 @@ export default function Divisiones() {
                 </div>
 
             </div>
+
         </div>
     )
 }

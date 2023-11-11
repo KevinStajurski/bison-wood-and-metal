@@ -41,7 +41,7 @@ export default function Nosotros() {
                 <div className={styles.NosotrosDivCuatroA}>
                     <h3>Metodología de trabajo</h3><br /><br />
                     <p>Aplicamos ingeniería, planificación y logística para que la ejecución de proyectos se realice principalmente en la planta, reduciendo significativamente el tiempo necesario en la obra, que se limita a la etapa de instalación.</p><br /><br />
-                    <p>REDUCIMOS UN &nbsp; &nbsp; <span>1%</span> &nbsp; &nbsp; EL TIEMPO EN OBRA</p>
+                    <p>REDUCIMOS UN &nbsp; &nbsp; <span>70%</span> &nbsp; &nbsp; EL TIEMPO EN OBRA</p>
                 </div>
                 <h4 id="divisiones">Divisiones</h4>
             </div>

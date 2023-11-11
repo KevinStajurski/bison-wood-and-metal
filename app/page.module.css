@@ -1,10 +1,7 @@
 .Main {
     display: flex;
     flex-direction: column;
-    
-    /* justify-content: space-between; */
     align-items: center;
-    /* min-height: 100vh; */
 }
 
 /* Estilos de Navbar */
@@ -84,16 +81,6 @@
     justify-content: space-between;
     padding: 4rem;
 }
-
-/* .NosotrosDivDosA h3 {
-    margin-top: 4rem;
-    margin-left: 3rem;
-}
-
-.NosotrosDivDosA p {
-    margin-top: 3rem;
-    margin-left: 3rem;
-} */
 
 .NosotrosDivTres {
     display: flex;
@@ -195,7 +182,7 @@
     color: gray;
     display: flex;
     gap: 1rem;
-    padding: 1rem;
+    padding: 0.6rem;
 }
 
 .Button {
@@ -213,7 +200,7 @@
     color: black;
     background-color: #d4f1f7;
     border-radius: 25px;
-    padding: 1rem;
+    padding: 0.7rem;
     text-decoration-line: underline;
     text-decoration-color: #660303;
     text-decoration-thickness: 0.2rem;
