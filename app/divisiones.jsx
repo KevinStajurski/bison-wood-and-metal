@@ -12,12 +12,11 @@ import { useState } from 'react'
 
 export default function Divisiones() {
 
-    const [selected, setSelected] = useState("herreria")
+    const [selected, setSelected] = useState("")
     const [counter, setCounter] = useState(0) 
-
-    const [image, setImage] = useState("/herreria.png")
-    const [description, setDescription] = useState("Descripción del área de herreria. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nemo debitis ut veritatis repellendus minus libero doloribus architecto pariatur")
-    const [imagesArray, setImagesArray] = useState(["/herreria_0.png","/herreria_1.png","/herreria_2.png"])
+    const [image, setImage] = useState("")
+    const [description, setDescription] = useState("")
+    const [imagesArray, setImagesArray] = useState([])
 
     const category = (item) => {
         if (item == "herreria") {
@@ -52,6 +51,8 @@ export default function Divisiones() {
     const siguiente = () => {
         counter<(imagesArray.length-1) && setCounter(counter+1)
     }
+
+    !selected && category("herreria")
 
     return (
         <div className={styles.Divisiones}>
