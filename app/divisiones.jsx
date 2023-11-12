@@ -13,32 +13,44 @@ import { useState } from 'react'
 export default function Divisiones() {
 
     const [selected, setSelected] = useState("herreria")
+    const [counter, setCounter] = useState(0) 
 
     const [image, setImage] = useState("/herreria.png")
     const [description, setDescription] = useState("Descripción del área de herreria. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nemo debitis ut veritatis repellendus minus libero doloribus architecto pariatur")
-    const [imagesArray, setImagesArray] = useState(["/herreria_1.png"])
+    const [imagesArray, setImagesArray] = useState(["/herreria_0.png"])
 
     const category = (item) => {
         if (item == "herreria") {
             setImage("/herreria.png")
             setDescription("Descripción del área de herreria. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nemo debitis ut veritatis repellendus minus libero doloribus architecto pariatur")
-            setImagesArray(["/herreria_1.png"])
+            setImagesArray(["/herreria_0.png"])
             setSelected("herreria")
+            setCounter(0)
         }
 
         if (item == "carpinteria") {
             setImage("/carpinteria.png")
             setDescription("Descripción del área de carpinteria. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nemo debitis ut veritatis repellendus minus libero doloribus architecto pariatur")
-            setImagesArray(["/carpinteria_1.png"])
+            setImagesArray(["/carpinteria_0.png", "/carpinteria_1.png", "/carpinteria_2.png", "/carpinteria_3.png", "/carpinteria_4.png"])
             setSelected("carpinteria")
+            setCounter(0)
         }
 
         if (item == "construccion") {
             setImage("/construccion.png")
             setDescription("Descripción del área de construcción. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nemo debitis ut veritatis repellendus minus libero doloribus architecto pariatur")
-            setImagesArray(["/construccion_1.png"])
+            setImagesArray(["/construccion_0.png"])
             setSelected("construccion")
+            setCounter(0)
         }
+    }
+
+    const anterior = () => {
+        counter>0 && setCounter(counter-1)
+    }
+
+    const siguiente = () => {
+        counter<(imagesArray.length-1) && setCounter(counter+1)
     }
 
     return (
@@ -59,9 +71,9 @@ export default function Divisiones() {
 
                 <div className={styles.DivisionesDivDosB}>
                     <div className={styles.DivisionesDivDosC}>
-                        <Image src={imagesArray[0]} width={550} height={400} />
+                        <Image src={imagesArray[counter]} width={550} height={400} />
                         <div className={styles.DivisionesDivDosD}>
-                            <Image src="/izquierda.svg" width={36} height={36} /> <p className={styles.inline}>Breve descripción de la obra</p> <Image src="/derecha.svg" width={36} height={36}/>
+                            <Image onClick={anterior} src="/izquierda.svg" width={36} height={36} /> <p>Breve descripción de la obra</p> <Image onClick={siguiente} src="/derecha.svg" width={36} height={36} />
                         </div>
                     </div>
                 </div>
