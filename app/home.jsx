@@ -11,7 +11,7 @@ export default function Home() {
     return (
         <div className={styles.Home}>
             <Image src="/background_home.png" width={1279} height={528} alt="construccion" />
-            <h1>Construcción Integral</h1>
+            <h1>Construcción <br /> Integral</h1>
         </div>
     )
 }
