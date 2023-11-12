@@ -34,7 +34,7 @@ export default function Divisiones() {
         }
 
         if (item == "construccion") {
-            setImage("/constructora.png")
+            setImage("/construccion.png")
             setDescription("Descripción del área de construcción. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nemo debitis ut veritatis repellendus minus libero doloribus architecto pariatur")
             setImagesArray(["/construccion_1.png"])
             setSelected("construccion")

@@ -30,7 +30,7 @@ export default function Nosotros() {
                     <p>Todos los servicios en un solo lugar: <strong>construcción,<br /> herrería, carpintería.</strong><br /> Garantizamos el funcionamiento y la ejecución de los <br /> proyectos mediante la <strong>comunicación interna fluida</strong><br /> entre nuestras áreas.</p>
                 </div>
                 <div className={styles.NosotrosDivTresB}>
-                    <div className={styles.NosotrosAreas}><Image src="/constructora.png" width={80} height={80} alt="constructora" /><p className={styles.NosotrosDescripcionAreas}>Constructora</p></div>
+                    <div className={styles.NosotrosAreas}><Image src="/construccion.png" width={80} height={80} alt="constructora" /><p className={styles.NosotrosDescripcionAreas}>Constructora</p></div>
                     <div className={styles.NosotrosCarpinteriaHerreria}><div className={styles.NosotrosAreas}><Image src="/carpinteria.png" width={80} height={80} alt="carpinteria" /><p className={styles.NosotrosDescripcionAreas}>Carpinteria</p></div><div className={styles.NosotrosAreas}><Image src="/herreria.png" width={80} height={80} alt="herreria" /><p className={styles.NosotrosDescripcionAreas}>Herreria</p></div></div>
                     <div className={styles.NosotrosAreas}><Image src="/arquitectura.png" width={80} height={80} alt="arquitectura" /><p className={styles.NosotrosDescripcionAreas}>Arquitectura e interiorismo</p></div>
                 </div>
