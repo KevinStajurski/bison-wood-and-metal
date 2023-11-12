@@ -17,13 +17,13 @@ export default function Divisiones() {
 
     const [image, setImage] = useState("/herreria.png")
     const [description, setDescription] = useState("Descripción del área de herreria. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nemo debitis ut veritatis repellendus minus libero doloribus architecto pariatur")
-    const [imagesArray, setImagesArray] = useState(["/herreria_0.png"])
+    const [imagesArray, setImagesArray] = useState(["/herreria_0.png","/herreria_1.png","/herreria_2.png"])
 
     const category = (item) => {
         if (item == "herreria") {
             setImage("/herreria.png")
             setDescription("Descripción del área de herreria. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nemo debitis ut veritatis repellendus minus libero doloribus architecto pariatur")
-            setImagesArray(["/herreria_0.png"])
+            setImagesArray(["/herreria_0.png","/herreria_1.png","/herreria_2.png"])
             setSelected("herreria")
             setCounter(0)
         }
@@ -39,7 +39,7 @@ export default function Divisiones() {
         if (item == "construccion") {
             setImage("/construccion.png")
             setDescription("Descripción del área de construcción. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nemo debitis ut veritatis repellendus minus libero doloribus architecto pariatur")
-            setImagesArray(["/construccion_0.png"])
+            setImagesArray(["/construccion_0.png", "/construccion_1.png"])
             setSelected("construccion")
             setCounter(0)
         }
