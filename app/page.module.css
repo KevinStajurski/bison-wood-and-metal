@@ -342,6 +342,16 @@
         margin: 2rem;
     }
 
+    .NosotrosDivTresA h3{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .NosotrosDivTresA p{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
     .NosotrosDivTresB{
         width: 100%;
         margin-top: 2rem;
@@ -360,5 +370,38 @@
     .NosotrosDescripcionAreas {
         margin: 0.5rem;
         font-size: 0.8rem;
+    }
+
+    .NosotrosDivCuatro{
+        margin-top: 5rem;
+    }
+
+    .NosotrosDivCuatro img {
+        height: 290px;
+    }
+
+    .NosotrosDivCuatroA{
+        width: 90%;
+        height: 280px;
+        padding: 1rem;
+        text-align: center;
+        top: -3rem;
+    }
+
+    .NosotrosDivCuatroA h3 {
+        font-size: 1.2rem;
+    }
+
+    .NosotrosDivCuatroA p {
+        font-size: 0.8rem;
+    }
+
+    .NosotrosDivCuatroA p span {
+        font-size: 1.2rem;
+    }
+
+    .NosotrosDivCuatro h4 {
+        bottom: 0.5rem;
+        font-size: 1.5rem;
     }
 }
