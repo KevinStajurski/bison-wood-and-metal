@@ -60,7 +60,9 @@ export default function Divisiones() {
                 <div className={styles.DivisionesDivDosB}>
                     <div className={styles.DivisionesDivDosC}>
                         <Image src={imagesArray[0]} width={550} height={400} />
-                        <p>Breve descripción de la obra</p>
+                        <div className={styles.DivisionesDivDosD}>
+                            <Image src="/izquierda.svg" width={36} height={36} /> <p className={styles.inline}>Breve descripción de la obra</p> <Image src="/derecha.svg" width={36} height={36}/>
+                        </div>
                     </div>
                 </div>
 
