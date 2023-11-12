@@ -45,9 +45,9 @@ export default function Divisiones() {
         <div className={styles.Divisiones}>
 
             <div className={styles.DivisionesDivUno}>
-                <button className={styles.Button} onClick={() => category("herreria")}><h4 className={selected == "herreria" && styles.ButtonSelected}>Herrería</h4></button>
-                <button className={styles.Button} onClick={() => category("carpinteria")}><h4 className={selected == "carpinteria" && styles.ButtonSelected}>Carpinteria</h4></button>
-                <button className={styles.Button} onClick={() => category("construccion")}><h4 className={selected == "construccion" && styles.ButtonSelected}>Construcción</h4></button>
+                <h4 onClick={() => category("herreria")} className={selected == "herreria" && styles.Selected}>Herrería</h4>
+                <h4 onClick={() => category("carpinteria")} className={selected == "carpinteria" && styles.Selected}>Carpinteria</h4>
+                <h4 onClick={() => category("construccion")} className={selected == "construccion" && styles.Selected}>Construcción</h4>
             </div>
 
             <div className={styles.DivisionesDivDos}>

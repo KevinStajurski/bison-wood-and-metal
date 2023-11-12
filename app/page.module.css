@@ -187,22 +187,21 @@
     background-color: white;
     color: gray;
     display: flex;
+    align-items: center;
     gap: 1rem;
     padding: 0.6rem;
 }
 
-.Button {
+.DivisionesDivUno h4{
     font-size: 1.5rem;
-    background: none;
-    border: none;
-    color: gray;
 }
 
-.Button:hover {
+.DivisionesDivUno h4:hover{
     color: black;
+    cursor: pointer;
 }
 
-.ButtonSelected{
+.Selected{
     color: black;
     background-color: #d4f1f7;
     border-radius: 25px;
