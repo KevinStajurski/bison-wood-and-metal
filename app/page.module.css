@@ -404,4 +404,51 @@
         bottom: 0.5rem;
         font-size: 1.5rem;
     }
+
+    /* Divisiones */
+
+    .DivisionesDivUno{
+        padding: 0.2rem;
+    }
+
+    .Selected{
+        padding: 0.4rem;
+    }
+
+    .DivisionesDivUno h4{
+        font-size: 1rem;
+    }
+
+    .DivisionesDivDos{
+        flex-direction: column;
+    }
+
+    .DivisionesDivDosA{
+        width: 90vw;
+    }
+
+    .DivisionesDivDosC{
+        width: 90vw;
+    }
+
+    .DivisionesDivDosC img {
+        width: 100%;
+    }
+
+    /* Contacto */
+
+    .Contacto {
+        height: 14rem;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .ContactoDivUno img{
+        width: 60%;
+        height: 60%;
+    }
+
+    .Contacto p{
+        font-size: 0.8rem;
+    }
 }
