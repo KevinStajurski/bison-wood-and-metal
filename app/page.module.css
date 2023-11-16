@@ -101,13 +101,11 @@
 
 .NosotrosDivTresA h3 {
     color: #660303;
-    font-size: 2rem;
     margin-bottom: 2rem;
 }
 
 .NosotrosDivTresA p {
     color: black;
-    font-size: 1.4rem;
 }
 
 .NosotrosDivTresB {
@@ -163,14 +161,9 @@
     align-items: center;
 }
 
-.NosotrosDivCuatroA h3 {
-    font-size: 2rem;
-}
-
 .NosotrosDivCuatro h4 {
     position: absolute;
     bottom: 1rem;
-    font-size: 3rem;
 }
 
 /* Estilos de Divisiones */
@@ -190,10 +183,6 @@
     align-items: center;
     gap: 1rem;
     padding: 0.6rem;
-}
-
-.DivisionesDivUno h4 {
-    font-size: 1.5rem;
 }
 
 .DivisionesDivUno h4:hover {
@@ -450,5 +439,10 @@
 
     .Contacto p{
         font-size: 0.8rem;
+    }
+
+    .Whatsapp {
+        bottom: 1rem;
+        right: 1rem;
     }
 }

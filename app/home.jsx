@@ -1,12 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
-// export const metadata = {
-//     title: 'Home',
-//     description: 'Bison Wood & Metal',
-//     keywords: 'Bison, construcción, integral, constructora, carpintería, herrería, decoración, interiorismo, divisiones',
-// }
-
 export default function Home() {
     return (
         <div className={styles.Home}>
