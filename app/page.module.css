@@ -10,7 +10,7 @@
     right: 2rem;
 }
 
-/* Estilos de Navbar */
+/* Desktop Navbar */
 
 .NavBar {
     width: 100%;
@@ -27,7 +27,7 @@
     gap: 1rem
 }
 
-/* Estilos de Home */
+/* Desktop Home */
 
 .Home {
     width: 100%;
@@ -44,7 +44,7 @@
     left: 9%;
 }
 
-/* Estilos de Nosotros */
+/* Desktop Nosotros */
 
 .Nosotros {
     width: 100%;
@@ -66,7 +66,7 @@
     margin-top: 2rem;
     position: relative;
     width: 100%;
-    height: 22rem;
+    height: 70vh;
 }
 
 .NosotrosDivDos img {
@@ -99,9 +99,16 @@
     -moz-box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.75);
 }
 
+.NosotrosDivTresA {
+    flex: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 60vh;
+}
+
 .NosotrosDivTresA h3 {
     color: #660303;
-    margin-bottom: 2rem;
 }
 
 .NosotrosDivTresA p {
@@ -109,6 +116,7 @@
 }
 
 .NosotrosDivTresB {
+    flex: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,8 +134,8 @@
 }
 
 .NosotrosCarpinteriaHerreria {
+    width: 100%;
     display: flex;
-    width: 450px;
     justify-content: space-between;
 }
 
@@ -157,7 +165,7 @@
     padding: 6rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -166,7 +174,7 @@
     bottom: 1rem;
 }
 
-/* Estilos de Divisiones */
+/* Desktop Divisiones */
 
 .Divisiones {
     background-color: #5E5954;
@@ -194,7 +202,7 @@
     color: black;
     background-color: #d4f1f7;
     border-radius: 25px;
-    padding: 0.7rem;
+    padding: 0.3rem;
     text-decoration-line: underline;
     text-decoration-color: #660303;
     text-decoration-thickness: 0.2rem;
@@ -243,7 +251,7 @@
     padding: 0.5rem;
 }
 
-/* Estilos de Contacto */
+/* Desktop Contacto */
 
 .Contacto {
     height: 14rem;
@@ -262,9 +270,9 @@
     margin: 0.5rem;
 }
 
-/* Smartphones */
 @media (max-width: 1120px) {
-    /* NavBar */
+
+    /* Smartphones NavBar */
 
     .NavBar {
         height: 4rem;
@@ -282,7 +290,7 @@
         font-size: 0.8rem;
     }
 
-    /* Home */
+    /* Smartphones Home */
 
     .Home img {
         height: 300px;
@@ -291,20 +299,17 @@
     .Home h1 {
         top: 5%;
         left: 5%;
-        font-size: 1.2rem;
     }
 
-    /* Nosotros */
+    /* Smartphones Nosotros */
 
     .NosotrosDivUno h2 {
         padding-left: 2rem;
         padding-top: 1rem;
-        font-size: 1.2rem;
     }
 
     .NosotrosDivUno p {
         padding-left: 2rem;
-        font-size: 0.8rem;
     }
 
     .NosotrosDivDos img {
@@ -317,14 +322,6 @@
         padding: 1rem;
     }
 
-    .NosotrosDivDosA h3 {
-        font-size: 1.2rem;
-    }
-
-    .NosotrosDivDosA p {
-        font-size: 0.8rem;
-    }
-
     .NosotrosDivTres{
         flex-direction: column;
         padding: 2rem;
@@ -332,12 +329,10 @@
     }
 
     .NosotrosDivTresA h3{
-        font-size: 1.2rem;
         text-align: center;
     }
 
     .NosotrosDivTresA p{
-        font-size: 0.8rem;
         text-align: center;
     }
 
@@ -358,7 +353,6 @@
 
     .NosotrosDescripcionAreas {
         margin: 0.5rem;
-        font-size: 0.8rem;
     }
 
     .NosotrosDivCuatro{
@@ -377,24 +371,15 @@
         top: -3rem;
     }
 
-    .NosotrosDivCuatroA h3 {
-        font-size: 1.2rem;
-    }
-
-    .NosotrosDivCuatroA p {
-        font-size: 0.8rem;
-    }
-
     .NosotrosDivCuatroA p span {
         font-size: 1.2rem;
     }
 
     .NosotrosDivCuatro h4 {
         bottom: 0.5rem;
-        font-size: 1.5rem;
     }
 
-    /* Divisiones */
+    /* Smartphones Divisiones */
 
     .DivisionesDivUno{
         padding: 0.2rem;
@@ -402,10 +387,6 @@
 
     .Selected{
         padding: 0.4rem;
-    }
-
-    .DivisionesDivUno h4{
-        font-size: 1rem;
     }
 
     .DivisionesDivDos{
@@ -424,7 +405,7 @@
         width: 100%;
     }
 
-    /* Contacto */
+    /* Smartphones Contacto */
 
     .Contacto {
         height: 14rem;
@@ -435,10 +416,6 @@
     .ContactoDivUno img{
         width: 60%;
         height: 60%;
-    }
-
-    .Contacto p{
-        font-size: 0.8rem;
     }
 
     .Whatsapp {
