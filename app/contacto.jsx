@@ -1,12 +1,6 @@
 import styles from './page.module.css'
 import Image from 'next/image'
 
-// export const metadata = {
-//     title: 'Contacto',
-//     description: 'Bison Wood & Metal - Contacto',
-//     keywords: 'Bison, construcción, integral, constructora, carpintería, herrería, decoración, interiorismo, contacto',
-// }
-
 export default function Contacto() {
     return (
         <div id="contacto" className={styles.Contacto}>

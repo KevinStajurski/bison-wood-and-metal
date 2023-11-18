@@ -7,7 +7,6 @@ export default function Navbar() {
         <div className={styles.NavBar}>
             <Link href="/">
                 <Image src="/logo.png" width={155} height={48} alt="Logo Bison Wood & Metal" />
-                {/* <img src="/logo.png" alt="Logo Bison Wood & Metal" /> */}
             </Link>
             <nav>
                 <ul>

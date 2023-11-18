@@ -11,10 +11,10 @@ export default function Nosotros() {
             </div>
 
             <div className={styles.NosotrosDivDos}>
-                <Image src="/background_que_hacemos.png" width={900} height={320} alt="oficina" />
+                <Image src="/background_que_hacemos.png" width={4200} height={2330} alt="oficina" />
                 <div className={styles.NosotrosDivDosA}>
                     <h3>Qué hacemos</h3>
-                    <p>Ejecutamos <strong>proyectos de construcción</strong> llave en mano para empresas constructoras y desarrollistas, integrando nuestros servicios con <strong>compromiso transparencia</strong> y <strong>capacidad de gestión.</strong></p>
+                    <p>Ejecutamos <strong>proyectos de construcción</strong> llave en mano para empresas constructoras y desarrollistas, integrando nuestros servicios con <strong>compromiso, transparencia</strong> y <strong>capacidad de gestión.</strong></p>
                 </div>
             </div>
 
@@ -25,7 +25,7 @@ export default function Nosotros() {
                 </div>
                 <div className={styles.NosotrosDivTresB}>
                     <div className={styles.NosotrosAreas}><Image src="/construccion.png" width={80} height={80} alt="constructora" /><p className={styles.NosotrosDescripcionAreas}>Constructora</p></div>
-                    <div className={styles.NosotrosCarpinteriaHerreria}><div className={styles.NosotrosAreas}><Image src="/carpinteria.png" width={80} height={80} alt="carpinteria" /><p className={styles.NosotrosDescripcionAreas}>Carpinteria</p></div><div className={styles.NosotrosAreas}><Image src="/herreria.png" width={80} height={80} alt="herreria" /><p className={styles.NosotrosDescripcionAreas}>Herreria</p></div></div>
+                    <div className={styles.NosotrosCarpinteriaHerreria}><div className={styles.NosotrosAreas}><Image src="/carpinteria.png" width={80} height={80} alt="carpinteria" /><p className={styles.NosotrosDescripcionAreas}>Carpintería</p></div><div className={styles.NosotrosAreas}><Image src="/herreria.png" width={80} height={80} alt="herreria" /><p className={styles.NosotrosDescripcionAreas}>Herreria</p></div></div>
                     <div className={styles.NosotrosAreas}><Image src="/arquitectura.png" width={80} height={80} alt="arquitectura" /><p className={styles.NosotrosDescripcionAreas}>Arquitectura e interiorismo</p></div>
                 </div>
             </div>

@@ -70,6 +70,8 @@
 }
 
 .NosotrosDivDos img {
+    width: 70%;
+    height: 80%;
     position: absolute;
     bottom: 0%;
     left: 0%;
@@ -77,14 +79,14 @@
 
 .NosotrosDivDosA {
     background-color: #262626;
-    width: 850px;
-    height: 300px;
+    width: 60%;
+    height: 80%;
     position: absolute;
     top: 0%;
     right: 0%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 4rem;
 }
 
@@ -92,7 +94,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4rem;
     margin: 3rem;
     box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.75);
@@ -101,6 +102,8 @@
 
 .NosotrosDivTresA {
     flex: 60%;
+    padding-left: 4rem;
+    padding-right: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -117,6 +120,7 @@
 
 .NosotrosDivTresB {
     flex: 40%;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -158,10 +162,10 @@
 
 .NosotrosDivCuatroA {
     background-color: #262626;
-    width: 750px;
-    height: 500px;
+    width: 50vw;
+    height: 80vh;
     position: absolute;
-    top: -5rem;
+    top: -4rem;
     padding: 6rem;
     display: flex;
     flex-direction: column;
@@ -191,6 +195,10 @@
     align-items: center;
     gap: 1rem;
     padding: 0.6rem;
+}
+
+.DivisionesDivUno h4 {
+    font-size: 1.5rem;
 }
 
 .DivisionesDivUno h4:hover {
@@ -275,11 +283,12 @@
     /* Smartphones NavBar */
 
     .NavBar {
-        height: 4rem;
+        height: 3rem;
     }
 
     .NavBar img {
         width: 5rem;
+        height: 2.2rem;
     }
 
     .NavBar nav ul {
@@ -293,7 +302,7 @@
     /* Smartphones Home */
 
     .Home img {
-        height: 300px;
+        height: 16rem;
     }
 
     .Home h1 {
@@ -312,31 +321,40 @@
         padding-left: 2rem;
     }
 
+    .NosotrosDivDos {
+        height: 16rem;
+    }
+
     .NosotrosDivDos img {
         width: 100%;
+        height: 14rem;
     }
 
     .NosotrosDivDosA {
-        width: 300px;
-        height: 220px;
+        width: 60vw;
         padding: 1rem;
     }
 
-    .NosotrosDivTres{
+    .NosotrosDivTres {
         flex-direction: column;
         padding: 2rem;
         margin: 2rem;
     }
 
-    .NosotrosDivTresA h3{
+    .NosotrosDivTresA {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .NosotrosDivTresA h3 {
         text-align: center;
     }
 
-    .NosotrosDivTresA p{
+    .NosotrosDivTresA p {
         text-align: center;
     }
 
-    .NosotrosDivTresB{
+    .NosotrosDivTresB {
         width: 100%;
         margin-top: 2rem;
     }
@@ -346,7 +364,7 @@
         justify-content: space-between;
     }
 
-    .NosotrosDivTresB img{
+    .NosotrosDivTresB img {
         width: 50px;
         height: 50px;
     }
@@ -355,7 +373,7 @@
         margin: 0.5rem;
     }
 
-    .NosotrosDivCuatro{
+    .NosotrosDivCuatro {
         margin-top: 5rem;
     }
 
@@ -363,7 +381,7 @@
         height: 290px;
     }
 
-    .NosotrosDivCuatroA{
+    .NosotrosDivCuatroA {
         width: 90%;
         height: 280px;
         padding: 1rem;
@@ -381,23 +399,23 @@
 
     /* Smartphones Divisiones */
 
-    .DivisionesDivUno{
+    .DivisionesDivUno {
         padding: 0.2rem;
     }
 
-    .Selected{
+    .Selected {
         padding: 0.4rem;
     }
 
-    .DivisionesDivDos{
+    .DivisionesDivDos {
         flex-direction: column;
     }
 
-    .DivisionesDivDosA{
+    .DivisionesDivDosA {
         width: 90vw;
     }
 
-    .DivisionesDivDosC{
+    .DivisionesDivDosC {
         width: 90vw;
     }
 
@@ -413,7 +431,7 @@
         padding: 1rem;
     }
 
-    .ContactoDivUno img{
+    .ContactoDivUno img {
         width: 60%;
         height: 60%;
     }

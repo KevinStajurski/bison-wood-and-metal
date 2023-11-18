@@ -53,7 +53,7 @@ export default function Divisiones() {
 
             <div className={styles.DivisionesDivUno}>
                 <h4 onClick={() => category("herreria")} className={selected == "herreria" && styles.Selected}>Herrería</h4>
-                <h4 onClick={() => category("carpinteria")} className={selected == "carpinteria" && styles.Selected}>Carpinteria</h4>
+                <h4 onClick={() => category("carpinteria")} className={selected == "carpinteria" && styles.Selected}>Carpintería</h4>
                 <h4 onClick={() => category("construccion")} className={selected == "construccion" && styles.Selected}>Construcción</h4>
             </div>
 
