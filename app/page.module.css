@@ -337,17 +337,18 @@
 
     .NosotrosDivTres {
         flex-direction: column;
-        padding: 2rem;
+        padding: 0rem;
         margin: 2rem;
     }
 
     .NosotrosDivTresA {
-        justify-content: center;
-        align-items: center;
+        padding: 2rem;
+        min-height: auto ;
     }
 
     .NosotrosDivTresA h3 {
         text-align: center;
+        margin-bottom: 1rem;
     }
 
     .NosotrosDivTresA p {
@@ -356,7 +357,8 @@
 
     .NosotrosDivTresB {
         width: 100%;
-        margin-top: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
     }
 
     .NosotrosCarpinteriaHerreria {
@@ -374,19 +376,19 @@
     }
 
     .NosotrosDivCuatro {
-        margin-top: 5rem;
+        margin-top: 6rem;
     }
 
     .NosotrosDivCuatro img {
-        height: 290px;
+        height: auto;
     }
 
     .NosotrosDivCuatroA {
         width: 90%;
-        height: 280px;
+        height: 17rem;
         padding: 1rem;
         text-align: center;
-        top: -3rem;
+        top: -4rem;
     }
 
     .NosotrosDivCuatroA p span {
@@ -394,13 +396,17 @@
     }
 
     .NosotrosDivCuatro h4 {
-        bottom: 0.5rem;
+        bottom: 0rem;
     }
 
     /* Smartphones Divisiones */
 
     .DivisionesDivUno {
-        padding: 0.2rem;
+        padding: 0.3rem;
+    }
+
+    .DivisionesDivUno h4 {
+        font-size: 0.9rem;
     }
 
     .Selected {
@@ -421,6 +427,10 @@
 
     .DivisionesDivDosC img {
         width: 100%;
+    }
+
+    .DivisionesDivDosD img{
+        width: auto;
     }
 
     /* Smartphones Contacto */
