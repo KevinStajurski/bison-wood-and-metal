@@ -68,7 +68,7 @@ export default function Divisiones() {
                     <div className={styles.DivisionesDivDosC}>
                         <Image src={imagesArray[counter]} width={550} height={400} />
                         <div className={styles.DivisionesDivDosD}>
-                            <Image onClick={anterior} src="/izquierda.svg" width={36} height={36} /> <p>Breve descripción de la obra</p> <Image onClick={siguiente} src="/derecha.svg" width={36} height={36} />
+                            <Image onClick={anterior} src="/izquierda.svg" width={36} height={36} /> <Image onClick={siguiente} src="/derecha.svg" width={36} height={36} />
                         </div>
                     </div>
                 </div>
